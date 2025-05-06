@@ -1,0 +1,14 @@
+<web-app>
+    
+ <servlet>
+ <servlet-name>logindemo</servlet-name>
+ <servlet-class>com.servlet.Validation</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>logindemo</servlet-name>
+ <url-pattern>/MySrv</url-pattern>
+ </servlet-mapping>
+ 
+</web-app>
+ 
