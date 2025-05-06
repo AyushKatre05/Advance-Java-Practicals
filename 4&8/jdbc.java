@@ -1,11 +1,11 @@
-package keyboard;
+package jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class key {
+public class jdbcmain {
     
     // JDBC connection parameters
     private static final String BASE_URL = "jdbc:mysql://localhost:3306/";
