@@ -1,0 +1,16 @@
+
+<web-app>
+ 
+<servlet>
+<servlet-name>calc</servlet-name>
+<servlet-class>com.CalculatorServlet</servlet-class>
+</servlet>
+ 
+<servlet-mapping>
+<servlet-name>calc</servlet-name>
+<url-pattern>/MyServ</url-pattern>
+</servlet-mapping>
+ 
+</web-app>
+ 
+ 
